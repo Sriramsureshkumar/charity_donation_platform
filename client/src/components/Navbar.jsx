@@ -15,9 +15,9 @@ function Nav() {
         <ul className="flex items-center space-x-4">
           {isLoggedIn ? (
             <>
-            <li className="text-white hover:text-indigo-500">
+{/*             <li className="text-white hover:text-indigo-500">
                 <Link to="/fund">Raise Fund</Link>
-              </li>
+              </li> */}
               <li className="text-white hover:text-indigo-500">
                 <Link to="/explore">Explore</Link>
               </li>
